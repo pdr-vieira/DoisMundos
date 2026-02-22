@@ -4,10 +4,12 @@
 
 //movimento
 var _chao = place_meeting(x, y+1, obj_colisao);
+var _espinho = place_meeting(x, y+1, obj_espinho);
+
 //debug
 chao = _chao
 
-var _jump = keyboard_check_pressed(vk_space);
+var _jump = keyboard_check_pressed(ord("W"));
 var _left = keyboard_check(ord("A"));
 var _right = keyboard_check(ord("D"));
 
@@ -36,6 +38,13 @@ if (_jump && max_jump > 0)
 //limitando a velocidade máxima da queda
 velv = clamp(velv, -max_velv, max_velv);
 
+
+//verificando colisão com o espinho
+if(_espinho)
+{
+	instance_destroy();
+	room_restart();
+}
 
 
 
