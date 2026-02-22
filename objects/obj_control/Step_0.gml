@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-var _switch_world = keyboard_check_released(vk_shift);
+var _switch_world = keyboard_check_released(vk_enter);
 
 if (_switch_world)
 {
@@ -10,9 +10,9 @@ if (_switch_world)
 
 if (global.mundo_atual = false) 
 {
-	layer_set_visible("Mundo_A", true);
+	//layer_set_visible("Mundo_A", true);
 	layer_set_visible("Mundo_A2", true);
-	layer_set_visible("Mundo_B", false);
+	//layer_set_visible("Mundo_B", false);
 	layer_set_visible("Mundo_B2", false);
 	instance_activate_layer("Mundo_A");
 	instance_activate_layer("Mundo_A2");
@@ -21,9 +21,9 @@ if (global.mundo_atual = false)
 } 
 else 
 {
-	layer_set_visible("Mundo_A", false);
+	//layer_set_visible("Mundo_A", false);
 	layer_set_visible("Mundo_A2", false);
-	layer_set_visible("Mundo_B", true);
+	//layer_set_visible("Mundo_B", true);
 	layer_set_visible("Mundo_B2", true);
 	instance_activate_layer("Mundo_B");
 	instance_activate_layer("Mundo_B2");
