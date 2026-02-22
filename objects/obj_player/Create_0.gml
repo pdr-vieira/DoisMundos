@@ -6,8 +6,8 @@
 gravidade = .8;
 velh = 0;
 velv = 0;
-max_velh = 10;
-max_velv = 20;
+max_velh = 7;
+max_velv = 15;
 qtd_jump = 2;
 max_jump = 0;
 

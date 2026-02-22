@@ -6,6 +6,18 @@ repeat (abs(velh))
 {
 	var _velh = sign(velh);
 	
+	//subindo a rampa
+	if (place_meeting(x+_velh, y, obj_colisao) && !place_meeting(x+_velh, y-1, obj_colisao))
+	{
+		y--;
+	}
+	
+	//descendo a rampa
+	if (!place_meeting(x+_velh,y,obj_colisao) && !place_meeting(x+_velh,y+1,obj_colisao) && place_meeting(x+_velh,y+2,obj_colisao))
+	{
+		y++;
+	}
+	
 	//checando se vai bater na parede
 	if (place_meeting(x + _velh, y, obj_colisao))
 	{

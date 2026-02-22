@@ -1,6 +1,3 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
 
 //movimento
 var _chao = place_meeting(x, y+1, obj_colisao);
