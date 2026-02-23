@@ -55,6 +55,7 @@
     {"id":{"name":"snd_explode1","path":"sounds/snd_explode1/snd_explode1.yy",},},
     {"id":{"name":"snd_jump1","path":"sounds/snd_jump1/snd_jump1.yy",},},
     {"id":{"name":"snd_power_up1","path":"sounds/snd_power_up1/snd_power_up1.yy",},},
+    {"id":{"name":"snd_transicao1","path":"sounds/snd_transicao1/snd_transicao1.yy",},},
     {"id":{"name":"spr_castle1","path":"sprites/spr_castle1/spr_castle1.yy",},},
     {"id":{"name":"spr_castle2","path":"sprites/spr_castle2/spr_castle2.yy",},},
     {"id":{"name":"spr_castle3","path":"sprites/spr_castle3/spr_castle3.yy",},},
