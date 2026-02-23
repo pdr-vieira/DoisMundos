@@ -11,6 +11,8 @@ if (global.mundo_atual = false)
 {
 	layer_set_visible("Mundo_A2", true);
 	layer_set_visible("Mundo_B2", false);
+	layer_set_visible("Mundo_A3", true);
+	layer_set_visible("Mundo_B3", false);
 	instance_activate_layer("Mundo_A");
 	instance_activate_layer("Mundo_A2");
 	instance_deactivate_layer("Mundo_B");
@@ -20,6 +22,8 @@ else
 {
 	layer_set_visible("Mundo_A2", false);
 	layer_set_visible("Mundo_B2", true);
+	layer_set_visible("Mundo_A3", false);
+	layer_set_visible("Mundo_B3", true);
 	instance_activate_layer("Mundo_B");
 	instance_activate_layer("Mundo_B2");
 	instance_deactivate_layer("Mundo_A");
@@ -42,3 +46,9 @@ if (_full_screen)
 	}
 }
 #endregion
+
+var _restart = keyboard_check_released(ord("R"));
+if (_restart)
+{
+	room_restart();
+}
