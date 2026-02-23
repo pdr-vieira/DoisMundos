@@ -47,8 +47,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"room_elements",
+    "path":"folders/Sprites/room_elements.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
