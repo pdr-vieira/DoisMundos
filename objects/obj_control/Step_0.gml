@@ -33,6 +33,16 @@ else
 
 #region definir tela cheia (ou sair da tela cheia) ao apertar o botão
 var _full_screen = keyboard_check_released(vk_f11);
+var _esc =  keyboard_check_released(vk_escape);
+
+//presionar esc para sair da tela cheia 
+if (window_get_fullscreen() = 1)
+{
+	if (_esc)
+	{
+		window_set_fullscreen(0);
+	}
+}
 
 if (_full_screen)
 {

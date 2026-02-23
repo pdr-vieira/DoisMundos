@@ -1,0 +1,13 @@
+# CRÉDITOS E FERRAMENTAS UTILIZADAS ===>> ASSETS
+	- https://sfxr.me
+	- https://bdragon1727.itch.io/basic-pixel-gui-and-buttons-pack-2
+	- https://crusenho.itch.io/complete-ui-essential-pack
+	- https://cazwolf.itch.io/caz-pixel-keyboard
+	- https://gerald-burke.itch.io/geralds-keys
+	- https://ninjikin.itch.io/starter-tiles
+	- https://anokolisa.itch.io/legacy-vania-pack-vilage
+	- https://bdragon1727.itch.io/retro-impact-effect-pack-3
+	- https://zneeke.itch.io/goblin-scout-silhouette
+	- https://adamatomic.itch.io/mc-caves
+	- https://bdragon1727.itch.io/border-and-panels-menu-part-3
+	- https://v3x3d.itch.io/retro-lines

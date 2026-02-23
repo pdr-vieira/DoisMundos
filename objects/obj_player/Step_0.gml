@@ -1,4 +1,4 @@
- 
+
 //movimento
 var _chao = place_meeting(x, y+1, obj_colisao);
 var _espinho = place_meeting(x, y+1, obj_espinho);
@@ -6,10 +6,19 @@ var _espinho = place_meeting(x, y+1, obj_espinho);
 //debug
 chao = _chao
 
-var _jump = keyboard_check_pressed(ord("W"));
-var _left = keyboard_check(ord("A"));
-var _right = keyboard_check(ord("D"));
+//não permitir movimento durante a transição
+ if (instance_exists(obj_transicao))
+ {
+	exit; 
+ }
+ else
+ {
+	var _jump = keyboard_check_pressed(ord("W"));
+	var _left = keyboard_check(ord("A"));
+	var _right = keyboard_check(ord("D"));
+ }
 
+ 
 //resetar a quantidade de pulos
 if(_chao)
 {
@@ -89,18 +98,18 @@ if (velh = 0 && velv = 0)
 //sprite caindo
 if (sprite_index = spr_player_jump && velv >= 0)
 {
-	 if (sprite_index < image_number-1)
-	 {
+		if (sprite_index < image_number-1)
+		{
 		image_speed = 1;
-	 }
-	 else
-	 {
+		}
+		else
+		{
 		image_speed = 0;
-	 }
+		}
 }
 
 #endregion
-
+ 
 
 
 
