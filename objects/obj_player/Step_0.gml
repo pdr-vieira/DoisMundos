@@ -29,8 +29,20 @@ velh = (_right - _left) * max_velh;
 //pulando
 if (_jump && max_jump > 0)
 {
+	//realiza o pulo e diminui o numero de pulos permitidos
 	velv = -max_velv/1.5;
 	max_jump--;
+	
+	//tocar o sfx de pulo
+	if (!audio_is_playing(sound_jump_sfx))
+	{
+		audio_play_sound(sound_jump_sfx,1,0);
+	}
+	else
+	{
+		audio_stop_sound(sound_jump_sfx);
+		audio_play_sound(sound_jump_sfx,1,0);
+	}
 	
 	//trocando para a sprite do pulo
 	sprite_index = spr_player_jump;

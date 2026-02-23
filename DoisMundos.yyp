@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -40,6 +41,9 @@
     {"id":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
     {"id":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},},
     {"id":{"name":"rm_base","path":"rooms/rm_base/rm_base.yy",},},
+    {"id":{"name":"snd_explode1","path":"sounds/snd_explode1/snd_explode1.yy",},},
+    {"id":{"name":"snd_jump1","path":"sounds/snd_jump1/snd_jump1.yy",},},
+    {"id":{"name":"snd_power_up1","path":"sounds/snd_power_up1/snd_power_up1.yy",},},
     {"id":{"name":"spr_castle1","path":"sprites/spr_castle1/spr_castle1.yy",},},
     {"id":{"name":"spr_castle2","path":"sprites/spr_castle2/spr_castle2.yy",},},
     {"id":{"name":"spr_castle3","path":"sprites/spr_castle3/spr_castle3.yy",},},
