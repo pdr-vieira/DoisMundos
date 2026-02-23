@@ -1,4 +1,4 @@
-
+ 
 //movimento
 var _chao = place_meeting(x, y+1, obj_colisao);
 var _espinho = place_meeting(x, y+1, obj_espinho);
@@ -40,7 +40,6 @@ velv = clamp(velv, -max_velv, max_velv);
 if(_espinho)
 {
 	instance_destroy();
-	room_restart();
 }
 
 
