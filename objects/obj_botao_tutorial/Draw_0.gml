@@ -1,5 +1,4 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
-//debug
-//draw_text(200, 300, global.mundo_atual);
+draw_self();
+draw_text(x+sprite_width*1.5, y+sprite_height/4,texto_direita)

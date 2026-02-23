@@ -11,10 +11,16 @@ if (global.mundo_atual = false)
 {
 	layer_set_visible("Mundo_A2", true);
 	layer_set_visible("Mundo_B2", false);
+	
 	layer_set_visible("Mundo_A3", true);
 	layer_set_visible("Mundo_B3", false);
+	
+	layer_set_visible("Background_Mundo_A", true);
+	layer_set_visible("Background_Mundo_B", false);
+
 	instance_activate_layer("Mundo_A");
 	instance_activate_layer("Mundo_A2");
+	
 	instance_deactivate_layer("Mundo_B");
 	instance_deactivate_layer("Mundo_B2");
 } 
@@ -22,10 +28,16 @@ else
 {
 	layer_set_visible("Mundo_A2", false);
 	layer_set_visible("Mundo_B2", true);
+	
 	layer_set_visible("Mundo_A3", false);
 	layer_set_visible("Mundo_B3", true);
+	
+	layer_set_visible("Background_Mundo_A", false);
+	layer_set_visible("Background_Mundo_B", true);
+	
 	instance_activate_layer("Mundo_B");
 	instance_activate_layer("Mundo_B2");
+	
 	instance_deactivate_layer("Mundo_A");
 	instance_deactivate_layer("Mundo_A2");
 }
