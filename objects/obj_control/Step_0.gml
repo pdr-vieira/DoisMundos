@@ -62,3 +62,4 @@ if (_restart)
 {
 	room_restart();
 }
+

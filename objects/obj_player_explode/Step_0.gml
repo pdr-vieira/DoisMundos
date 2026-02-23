@@ -11,5 +11,5 @@ if (image_index > image_number - 1)
 
 if (delay_restart_room <= 0)
 {
-	room_restart();
+	instance_destroy();
 }
