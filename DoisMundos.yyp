@@ -79,6 +79,7 @@
     {"id":{"name":"spr_keyboard2_left","path":"sprites/spr_keyboard2_left/spr_keyboard2_left.yy",},},
     {"id":{"name":"spr_keyboard2_right","path":"sprites/spr_keyboard2_right/spr_keyboard2_right.yy",},},
     {"id":{"name":"spr_keyboard2_up","path":"sprites/spr_keyboard2_up/spr_keyboard2_up.yy",},},
+    {"id":{"name":"spr_mouse","path":"sprites/spr_mouse/spr_mouse.yy",},},
     {"id":{"name":"spr_next_stage","path":"sprites/spr_next_stage/spr_next_stage.yy",},},
     {"id":{"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},},
     {"id":{"name":"spr_platform2","path":"sprites/spr_platform2/spr_platform2.yy",},},
@@ -106,8 +107,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
     {"roomId":{"name":"rm_ini","path":"rooms/rm_ini/rm_ini.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
