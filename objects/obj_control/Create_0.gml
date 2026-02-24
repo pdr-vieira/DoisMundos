@@ -5,6 +5,7 @@ global.mundo_atual = false;
 
 //acessar o script generic
 scr_generic();
+scr_checkpoint();
 
 //função para tocar a trilha sonora de cada fase
 function tocar_trilha_sonora()
@@ -39,3 +40,6 @@ function tocar_trilha_sonora()
 		}
 	}
 }
+
+restart_x = 0;
+restart_y = 0;

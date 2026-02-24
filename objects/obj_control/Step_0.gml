@@ -69,9 +69,11 @@ if (_full_screen)
 }
 #endregion
 
+#region botão restart
 var _restart = keyboard_check_released(ord("R"));
 if (_restart)
 {
 	room_restart();
 }
+#endregion
 
