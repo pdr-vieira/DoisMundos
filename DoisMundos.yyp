@@ -108,11 +108,11 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_1","path":"rooms/rm_1/rm_1.yy",},},
-    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_2","path":"rooms/rm_2/rm_2.yy",},},
+    {"roomId":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},},
+    {"roomId":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"roomId":{"name":"rm_ini","path":"rooms/rm_ini/rm_ini.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_3","path":"rooms/rm_3/rm_3.yy",},},
     {"roomId":{"name":"rm_fim","path":"rooms/rm_fim/rm_fim.yy",},},
   ],
   "templateType":"game",
