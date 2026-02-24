@@ -8,3 +8,6 @@ _transicao.tipo_transicao = "fade_in";
 //mouse
 window_set_cursor(cr_none);
 cursor_sprite = spr_mouse;
+
+//trilha sonora da fase
+global.musica_fase = snd_DamaMay;

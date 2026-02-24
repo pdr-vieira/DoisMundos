@@ -9,37 +9,37 @@ if (_switch_world)
 
 if (global.mundo_atual = false) 
 {
-	layer_set_visible("Mundo_A2", true);
-	layer_set_visible("Mundo_B2", false);
+	if(layer_exists("Mundo_A2")) layer_set_visible("Mundo_A2", true);
+	if(layer_exists("Mundo_B2")) layer_set_visible("Mundo_B2", false);
 	
-	layer_set_visible("Mundo_A3", true);
-	layer_set_visible("Mundo_B3", false);
+	if(layer_exists("Mundo_A3")) layer_set_visible("Mundo_A3", true);
+	if(layer_exists("Mundo_B3")) layer_set_visible("Mundo_B3", false);
 	
-	layer_set_visible("Background_Mundo_A", true);
-	layer_set_visible("Background_Mundo_B", false);
+	if(layer_exists("Background_Mundo_A")) layer_set_visible("Background_Mundo_A", true);
+	if(layer_exists("Background_Mundo_B")) layer_set_visible("Background_Mundo_B", false);
 
-	instance_activate_layer("Mundo_A");
-	instance_activate_layer("Mundo_A2");
+	if(layer_exists("Mundo_A")) instance_activate_layer("Mundo_A");
+	if(layer_exists("Mundo_A2")) instance_activate_layer("Mundo_A2");
 	
-	instance_deactivate_layer("Mundo_B");
-	instance_deactivate_layer("Mundo_B2");
+	if(layer_exists("Mundo_B")) instance_deactivate_layer("Mundo_B");
+	if(layer_exists("Mundo_B2")) instance_deactivate_layer("Mundo_B2");
 } 
 else 
 {
-	layer_set_visible("Mundo_A2", false);
-	layer_set_visible("Mundo_B2", true);
+	if(layer_exists("Mundo_A2")) layer_set_visible("Mundo_A2", false);
+	if(layer_exists("Mundo_B2")) layer_set_visible("Mundo_B2", true);
 	
-	layer_set_visible("Mundo_A3", false);
-	layer_set_visible("Mundo_B3", true);
+	if(layer_exists("Mundo_A3")) layer_set_visible("Mundo_A3", false);
+	if(layer_exists("Mundo_B3")) layer_set_visible("Mundo_B3", true);
 	
-	layer_set_visible("Background_Mundo_A", false);
-	layer_set_visible("Background_Mundo_B", true);
+	if(layer_exists("Background_Mundo_A")) layer_set_visible("Background_Mundo_A", false);
+	if(layer_exists("Background_Mundo_B")) layer_set_visible("Background_Mundo_B", true);
 	
-	instance_activate_layer("Mundo_B");
-	instance_activate_layer("Mundo_B2");
+	if(layer_exists("Mundo_B")) instance_activate_layer("Mundo_B");
+	if(layer_exists("Mundo_B2")) instance_activate_layer("Mundo_B2");
 	
-	instance_deactivate_layer("Mundo_A");
-	instance_deactivate_layer("Mundo_A2");
+	if(layer_exists("Mundo_A")) instance_deactivate_layer("Mundo_A");
+	if(layer_exists("Mundo_A2")) instance_deactivate_layer("Mundo_A2");
 }
 #endregion
 
