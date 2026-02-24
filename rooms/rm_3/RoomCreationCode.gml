@@ -1,4 +1,4 @@
-global.room_atual = "FASE 2";
+global.room_atual = "FASE 3";
 
 //cria a transição de fase
 var _cam_xposition = camera_get_view_x(view_camera[0])

@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_botao_voltar",
+  "%Name":"obj_botao_navegacao",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_botao_voltar",
+  "name":"obj_botao_navegacao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,14 +32,18 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"room_clique","filters":[],"listItems":[],"multiselect":false,"name":"room_clique","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_menu","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"sprite_botao","filters":[],"listItems":[],"multiselect":false,"name":"sprite_botao","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_botao_voltar",
-    "path":"sprites/spr_botao_voltar/spr_botao_voltar.yy",
+    "name":"spr_botao_colisao",
+    "path":"sprites/spr_botao_colisao/spr_botao_colisao.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_botao_colisao",
+    "path":"sprites/spr_botao_colisao/spr_botao_colisao.yy",
+  },
   "visible":true,
 }
