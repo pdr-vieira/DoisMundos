@@ -3,11 +3,55 @@
 #region função para trocar de mundo
 var _switch_world = keyboard_check_released(vk_enter);
 
+//debug
+//var _teste_sfx_troca_mundo = keyboard_check_released(ord("K"));
+//if(_teste_sfx_troca_mundo)
+//{
+//	if j < array_length(troca_mundo_sons)-1
+//	{
+//		j++;
+//	}
+//	else
+//	{
+//		j = 0;
+//	}
+	
+//	show_debug_message(troca_mundo_sons[j])
+//}
+
 if (_switch_world)
 {
+	//tocar efeito sonoro
+	var _sfx_switch_world = troca_mundo_sons[j];
+	
+	if (audio_is_playing(_sfx_switch_world))
+	{
+		audio_stop_sound(_sfx_switch_world);
+		audio_play_sound(_sfx_switch_world, 2, 0);
+	}
+	else
+	{
+		audio_play_sound(_sfx_switch_world, 2, 0);
+	}
+	
+	//troca o som --> caso queira deixar mais de um efeito
+	if j < array_length(troca_mundo_sons)-1
+	{
+		j++;
+	}
+	else
+	{
+		j = 0;
+	}
+	
+	//debug
+	//show_debug_message(troca_mundo_sons[j])
+	
+	//troca o mundo
 	global.mundo_atual = !global.mundo_atual;
 }
 
+//configura para aparecerem e funcionarem apenas as layers corretas da fase (do mundo atual)
 if (global.mundo_atual = false) 
 {
 	if(layer_exists("Mundo_A2")) layer_set_visible("Mundo_A2", true);

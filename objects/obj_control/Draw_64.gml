@@ -3,3 +3,4 @@
 
 //debug
 //draw_text(200, 300, global.mundo_atual);
+

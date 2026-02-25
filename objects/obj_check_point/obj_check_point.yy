@@ -34,5 +34,5 @@
     "path":"sprites/spr_check_point/spr_check_point.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
