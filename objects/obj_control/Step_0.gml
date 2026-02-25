@@ -1,4 +1,5 @@
 
+
 #region função para trocar de mundo
 var _switch_world = keyboard_check_released(vk_enter);
 

@@ -10,9 +10,9 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequences","folderPath":"folders/Sequences.yy","name":"Sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sfx","folderPath":"folders/Sounds/sfx.yy","name":"sfx","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -67,6 +67,7 @@
     {"id":{"name":"snd_jump1","path":"sounds/snd_jump1/snd_jump1.yy",},},
     {"id":{"name":"snd_power_up1","path":"sounds/snd_power_up1/snd_power_up1.yy",},},
     {"id":{"name":"snd_transicao1","path":"sounds/snd_transicao1/snd_transicao1.yy",},},
+    {"id":{"name":"snd_WaterPrelude","path":"sounds/snd_WaterPrelude/snd_WaterPrelude.yy",},},
     {"id":{"name":"spr_botao_colisao","path":"sprites/spr_botao_colisao/spr_botao_colisao.yy",},},
     {"id":{"name":"spr_botao_jogar","path":"sprites/spr_botao_jogar/spr_botao_jogar.yy",},},
     {"id":{"name":"spr_botao_tutorial","path":"sprites/spr_botao_tutorial/spr_botao_tutorial.yy",},},

@@ -11,11 +11,16 @@ scr_checkpoint();
 function tocar_trilha_sonora()
 {
 	musicas_qtd = array_length(global.musicas)
-
+	//debug
+	show_debug_message(musicas_qtd)
+	
 	for (i = 0; i < musicas_qtd; i+=1)
 	{
+		//se a música do [i] estiver tocando E a música do [i] for igual a da fase
 		if ((audio_is_playing(global.musicas[i])) && (global.musicas[i] = global.musica_fase))
 		{
+			//debug
+			show_debug_message(global.musicas[i])
 			break;
 		}
 		else

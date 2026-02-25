@@ -2,7 +2,7 @@
 global.room_atual = "FASE 2";
 
 //trilha sonora da fase
-global.musica_fase = snd_DamaMay;
+global.musica_fase = snd_Arcadia;
 
 //define o lugar que o player começa o jogo
 if global.checkpoint = false
