@@ -1,3 +1,5 @@
+
+
 //fase atual
 global.room_atual = "FASE 3";
 

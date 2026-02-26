@@ -16,4 +16,3 @@ keyboard_set_map(vk_right, ord("D"));
 keyboard_set_map(vk_space, vk_enter);
 keyboard_set_map(vk_up, ord("W"));
 
-

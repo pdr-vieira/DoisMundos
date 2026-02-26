@@ -54,3 +54,71 @@ repeat (abs(velv))
 }
 
 
+#region PARALLAX
+	if (velh > 0)
+	{
+		if (layer_exists("Background_2"))
+		{
+			layer_hspeed("Background_2", -.1);
+		}
+	
+		if (layer_exists("Background_3"))
+		{
+			layer_hspeed("Background_3", -.3);
+		}
+	
+		if (layer_exists("Background_4"))
+		{
+			layer_hspeed("Background_4", -.5);
+		}
+	
+		if (layer_exists("Background_5"))
+		{
+			layer_hspeed("Background_5", -.7);
+		}
+	}
+	else if (velh < 0)
+	{
+		if (layer_exists("Background_2"))
+		{
+			layer_hspeed("Background_2", .1);
+		}
+	
+		if (layer_exists("Background_3"))
+		{
+			layer_hspeed("Background_3", .3);
+		}
+	
+		if (layer_exists("Background_4"))
+		{
+			layer_hspeed("Background_4", .5);
+		}
+	
+		if (layer_exists("Background_5"))
+		{
+			layer_hspeed("Background_5", .7);
+		}
+	}
+	else
+	{
+		if (layer_exists("Background_2"))
+		{
+			layer_hspeed("Background_2", 0);
+		}
+	
+		if (layer_exists("Background_3"))
+		{
+			layer_hspeed("Background_3", 0);
+		}
+	
+		if (layer_exists("Background_4"))
+		{
+			layer_hspeed("Background_4", 0);
+		}
+	
+		if (layer_exists("Background_5"))
+		{
+			layer_hspeed("Background_5", 0);
+		}
+	}
+#endregion

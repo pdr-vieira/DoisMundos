@@ -11,7 +11,12 @@
 	- https://adamatomic.itch.io/mc-caves
 	- https://bdragon1727.itch.io/border-and-panels-menu-part-3
 	- https://v3x3d.itch.io/retro-lines
-
+	- https://edermunizz.itch.io/free-pixel-art-forest
+	- https://porfiriall737.itch.io/the-backdrop-is-the-city-of-the-future
+	- https://pixelando-art.itch.io/city-background
+	- https://admurin.itch.io/admurins-general-items
+	- https://admurin.itch.io/admurins-miscellaneous-items
+	- https://admurin.itch.io/admurins-insects
 --------------------------------------------------------
 
 MÚSICAS UTILIZADAS (https://incompetech.com/music/royalty-free/music.html)

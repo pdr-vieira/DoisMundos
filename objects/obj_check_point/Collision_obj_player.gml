@@ -3,7 +3,7 @@
 
 //local para reiniciar quando tiver checkpoint
 obj_control.restart_x = x;
-obj_control.restart_y = y + obj_player.sprite_height * 5;
+obj_control.restart_y = y;
 global.checkpoint = true;
 
 

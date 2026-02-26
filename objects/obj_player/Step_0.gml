@@ -18,6 +18,14 @@ chao = _chao
 	var _right = keyboard_check(ord("D"));
  }
 
+//som de passos
+if(_chao && velh != 0)
+{
+	if (!audio_is_playing(snd_passos))
+	{
+		audio_play_sound(snd_passos, 3, 0);
+	}
+}
  
 //resetar a quantidade de pulos
 if(_chao)
