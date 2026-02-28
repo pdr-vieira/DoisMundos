@@ -57,68 +57,155 @@ repeat (abs(velv))
 #region PARALLAX
 	if (velh > 0)
 	{
+		if (layer_exists("Background_1"))
+		{
+			layer_hspeed("Background_1", -.05);
+		}
+		if (layer_exists("Background_1B"))
+		{
+			layer_hspeed("Background_1B", -.05);
+		}
+		
+		
 		if (layer_exists("Background_2"))
 		{
-			layer_hspeed("Background_2", -.1);
+			layer_hspeed("Background_2", -.08);
 		}
-	
+		if (layer_exists("Background_2B"))
+		{
+			layer_hspeed("Background_2B", -.08);
+		}
+		
+		
 		if (layer_exists("Background_3"))
 		{
-			layer_hspeed("Background_3", -.3);
+			layer_hspeed("Background_3", -.1);
 		}
+		if (layer_exists("Background_3B"))
+		{
+			layer_hspeed("Background_3B", -.1);
+		}
+		
 	
 		if (layer_exists("Background_4"))
 		{
-			layer_hspeed("Background_4", -.5);
+			layer_hspeed("Background_4", -.3);
 		}
+		if (layer_exists("Background_4B"))
+		{
+			layer_hspeed("Background_4B", -.3);
+		}
+		
 	
 		if (layer_exists("Background_5"))
 		{
-			layer_hspeed("Background_5", -.7);
+			layer_hspeed("Background_5", -.5);
+		}
+		if (layer_exists("Background_5B"))
+		{
+			layer_hspeed("Background_5B", -.5);
 		}
 	}
 	else if (velh < 0)
 	{
+		if (layer_exists("Background_1"))
+		{
+			layer_hspeed("Background_1", .05);
+		}
+		if (layer_exists("Background_1B"))
+		{
+			layer_hspeed("Background_1B", .05);
+		}
+		
+		
 		if (layer_exists("Background_2"))
 		{
-			layer_hspeed("Background_2", .1);
+			layer_hspeed("Background_2", .08);
 		}
-	
+		if (layer_exists("Background_2B"))
+		{
+			layer_hspeed("Background_2B", .08);
+		}
+		
+		
 		if (layer_exists("Background_3"))
 		{
-			layer_hspeed("Background_3", .3);
+			layer_hspeed("Background_3", .1);
 		}
+		if (layer_exists("Background_3B"))
+		{
+			layer_hspeed("Background_3B", .1);
+		}
+		
 	
 		if (layer_exists("Background_4"))
 		{
-			layer_hspeed("Background_4", .5);
+			layer_hspeed("Background_4", .3);
 		}
+		if (layer_exists("Background_4B"))
+		{
+			layer_hspeed("Background_4B", .3);
+		}
+		
 	
 		if (layer_exists("Background_5"))
 		{
-			layer_hspeed("Background_5", .7);
+			layer_hspeed("Background_5", .5);
+		}
+		if (layer_exists("Background_5B"))
+		{
+			layer_hspeed("Background_5B", .5);
 		}
 	}
 	else
 	{
+		if (layer_exists("Background_1"))
+		{
+			layer_hspeed("Background_1", 0);
+		}
+		if (layer_exists("Background_1B"))
+		{
+			layer_hspeed("Background_1B", 0);
+		}
+		
+		
 		if (layer_exists("Background_2"))
 		{
 			layer_hspeed("Background_2", 0);
 		}
-	
+		if (layer_exists("Background_2B"))
+		{
+			layer_hspeed("Background_2B", 0);
+		}
+		
+		
 		if (layer_exists("Background_3"))
 		{
 			layer_hspeed("Background_3", 0);
 		}
+		if (layer_exists("Background_3B"))
+		{
+			layer_hspeed("Background_3B", 0);
+		}
+		
 	
 		if (layer_exists("Background_4"))
 		{
 			layer_hspeed("Background_4", 0);
 		}
+		if (layer_exists("Background_4B"))
+		{
+			layer_hspeed("Background_4B", 0);
+		}
+		
 	
 		if (layer_exists("Background_5"))
 		{
 			layer_hspeed("Background_5", 0);
+		}
+		if (layer_exists("Background_5B"))
+		{
+			layer_hspeed("Background_5B", 0);
 		}
 	}
 #endregion
