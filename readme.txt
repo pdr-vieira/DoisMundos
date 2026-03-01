@@ -17,6 +17,7 @@
 	- https://admurin.itch.io/admurins-general-items
 	- https://admurin.itch.io/admurins-miscellaneous-items
 	- https://admurin.itch.io/admurins-insects
+	- https://karsiori.itch.io/pixel-art-door-pack-animated
 --------------------------------------------------------
 
 MÚSICAS UTILIZADAS (https://incompetech.com/music/royalty-free/music.html)

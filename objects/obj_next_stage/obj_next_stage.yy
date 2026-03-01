@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_next_stage",
-    "path":"sprites/spr_next_stage/spr_next_stage.yy",
+    "name":"spr_door_1",
+    "path":"sprites/spr_door_1/spr_door_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -19,6 +19,16 @@ if(global.checkpoint = false)
 	_transicao.tipo_transicao = "fade_in";
 }
 
+//mouse
+window_set_cursor(cr_none);
+if (room = rm_menu or room = rm_tutorial)
+{
+	cursor_sprite = spr_mouse;
+}
+else
+{
+	cursor_sprite = noone;
+}
 
 //desenhar a sprite obrigado quando o jogador zerar o jogo
 if (global.game_over = true && room = rm_menu)
@@ -32,8 +42,5 @@ if (global.game_over = true && room = rm_menu)
 //show_debug_message(global.game_over);
 
 
-//mouse
-window_set_cursor(cr_none);
-cursor_sprite = spr_mouse;
 
 

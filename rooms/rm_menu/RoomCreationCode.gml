@@ -6,6 +6,10 @@ audio_stop_all();
 global.musica_fase = noone;
 global.room_atual = "MENU";
 
+//define checkpoint como false
+global.checkpoint = false
+
+
 //agradecer se tiver zerado o jogo
 //debug
 //global.game_over = true;

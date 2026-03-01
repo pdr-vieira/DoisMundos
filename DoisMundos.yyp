@@ -107,6 +107,7 @@
     {"id":{"name":"spr_colisao","path":"sprites/spr_colisao/spr_colisao.yy",},},
     {"id":{"name":"spr_contorno_plataforma","path":"sprites/spr_contorno_plataforma/spr_contorno_plataforma.yy",},},
     {"id":{"name":"spr_digital_env1","path":"sprites/spr_digital_env1/spr_digital_env1.yy",},},
+    {"id":{"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},},
     {"id":{"name":"spr_dunes_1","path":"sprites/spr_dunes_1/spr_dunes_1.yy",},},
     {"id":{"name":"spr_dunes_2","path":"sprites/spr_dunes_2/spr_dunes_2.yy",},},
     {"id":{"name":"spr_dunes_3","path":"sprites/spr_dunes_3/spr_dunes_3.yy",},},
