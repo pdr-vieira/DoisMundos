@@ -1,10 +1,10 @@
-
+show_debug_message(global.game_over)
 //movimento
 var _chao = place_meeting(x, y+1, obj_colisao);
 var _espinho = place_meeting(x, y+1, obj_espinho);
 
 //debug
-chao = _chao
+//chao = _chao
 
 //não permitir movimento durante a transição
  if (instance_exists(obj_transicao))
@@ -13,7 +13,7 @@ chao = _chao
  }
  else
  {
-	var _jump = keyboard_check_pressed(ord("W"));
+	var _jump = keyboard_check_pressed(vk_space);
 	var _left = keyboard_check(ord("A"));
 	var _right = keyboard_check(ord("D"));
  }

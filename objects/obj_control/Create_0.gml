@@ -53,3 +53,5 @@ function tocar_trilha_sonora()
 
 restart_x = 0;
 restart_y = 0;
+
+keyboard_set_map(vk_up, ord("W"));

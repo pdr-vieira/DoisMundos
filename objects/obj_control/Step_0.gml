@@ -1,7 +1,7 @@
 
 
 #region função para trocar de mundo
-var _switch_world = keyboard_check_released(vk_enter);
+var _switch_world = keyboard_check_released(ord("W"));
 
 //debug
 //var _teste_sfx_troca_mundo = keyboard_check_released(ord("K"));

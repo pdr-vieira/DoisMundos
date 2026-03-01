@@ -10,3 +10,4 @@ if global.checkpoint = false
 	obj_control.restart_x = 96;
 	obj_control.restart_y = 160;
 }
+

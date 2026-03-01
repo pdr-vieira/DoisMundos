@@ -370,7 +370,7 @@
           4610,4611,4611,4608,4609,4610,4611,4607,4608,4609,4610,4611,4607,4608,4609,4610,4611,4607,4608,4609,
           4610,4611,4607,4608,4609,4610,4611,4608,4609,4610,4611,4607,4608,4698,4699,4700,4701,4702,4703,4704,
           4705,4519,4520,4521,4708,4709,4710,4711,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tl_castle4","path":"tilesets/tl_castle4/tl_castle4.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tl_castle4","path":"tilesets/tl_castle4/tl_castle4.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Mundo_B2","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Mundo_B2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":257,"TileCompressedData":[
           -2805,-2147483648,22,1877,1882,1873,1874,1875,1873,1874,1875,1873,1874,1875,1873,1874,1873,1874,1875,
           1873,1874,1875,1873,1874,1875,-234,-2147483648,23,1877,1882,3044,3045,3046,3044,3045,3046,3044,3045,
@@ -654,7 +654,7 @@
           2066,2067,2065,2066,2067,2065,2066,2065,2066,2067,2065,2066,2067,2065,2066,2067,2065,2066,2067,2065,
           2066,2067,2065,2066,2067,2065,2066,2067,2065,2066,2067,2065,2689,2690,2691,2690,2689,2690,2691,2690,
           2691,2066,2067,2065,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tl_digital_env1","path":"tilesets/tl_digital_env1/tl_digital_env1.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tl_digital_env1","path":"tilesets/tl_digital_env1/tl_digital_env1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_5C24E8AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C24E8AE","objectId":{"name":"obj_check_point","path":"objects/obj_check_point/obj_check_point.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2336.0,"y":192.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

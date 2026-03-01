@@ -9,8 +9,8 @@ global.musica_fase = snd_ControlledChaos;
 //define o lugar que o player começa o jogo
 if global.checkpoint = false
 {
-	obj_control.restart_x = 96;
-	obj_control.restart_y = 160;
+	obj_control.restart_x = 3968;
+	obj_control.restart_y = 128;
 }
 
 global.game_over = true;
