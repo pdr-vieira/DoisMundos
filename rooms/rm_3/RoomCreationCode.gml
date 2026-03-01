@@ -4,7 +4,7 @@
 global.room_atual = "FASE 3";
 
 //trilha sonora da fase
-global.musica_fase = snd_ControlledChaos;
+global.musica_fase = snd_Arcadia;
 
 //define o lugar que o player começa o jogo
 if global.checkpoint = false
